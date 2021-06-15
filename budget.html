@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="file.css">
+	<link rel="stylesheet" href="css/font-awesome.min.css">
+	<link rel="shortcut icon" type="x-icon" href="cam.jpg">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap" rel="stylesheet">
+	<title>Budget</title>
+</head>
+<body class="budget">
+	<section class="back-g">
+		<div class="container">
+			<p>Available Budget in September 2021:</p>
+			<h1 id="totalBudget">- 0.00 </h1>
+			<div class="income">
+				<h5>Income</h5>
+				<p id="totalIncome">+ 0.00</p>
+			</div>
+			<div class="expenses">
+				<h5>Expenses</h5>
+				<div class="percent" id="expensesPercentage">53%</div>
+				<p id="totalExpenses">- 0.00</p>
+			</div>
+		</div>
+	</section>
+	<section class="dash">
+		<div class="container">
+			<div class="dashboard">
+				<select class="option"  id="option">
+						<option value="+">+</option>
+						<option value="-">-</option>	
+				</select>
+					<input class="description" type="text" name="description" placeholder="Add description" id="text">
+					<input class="value" type="number" name="number" placeholder="value" id="num"> 
+					<button class="check-mark" onclick="getValue()"><i class="fa fa-check-circle"></i></button>
+			</div>		
+		</div>
+	</section>
+	<section class="section-d">
+		<div class="container">
+                <div class="income">
+                    <h2 class="income-title">Income</h2>
+                    <div class="income-list" id="income-list">
+                        <!-- <div class="item" id="item">
+                            <div class="item-description">Benefits</div>
+                            <div class="right">
+                                <div class="item-value">+ 2,100.00</div>
+                                <div class="item-delete">
+                                    <button class="delete-btn"><i class="fa fa-times-circle"></i></button>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="item">
+                            <div class="item-description">Amount fee</div>
+                            <div class="right">
+                                <div class="item-value">+ 1,500.00</div>
+                                <div class="item-delete">
+                                    <button class="delete-btn"><i class="fa fa-times-circle"></i></button>
+                                </div>
+                            </div>
+                        </div> -->
+                    </div>
+                </div>
+
+                <div class="expenses">
+                    <h2 class="expenses-title">Expenses</h2>
+                    <div class="expenses-list" id="expenses-list">
+                        <!-- <div class="item">
+                            <div class="item-description">Salary</div>
+                            <div class="right">
+                                <div class="item-value">- 900.00</div>
+                                <div class="item-percentage">21%</div>
+                                <div class="item-delete">
+                                    <button class="delete-btn"><i class="fa fa-times-circle"></i></button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="item-description">Electricity bills</div>
+                            <div class="right">
+                                <div class="item-value">- 435.28</div>
+                                <div class="item-percentage">10%</div>
+                                <div class="item-delete">
+                                    <button class="delete-btn"><i class="fa fa-times-circle"></i></button>
+                                </div>
+                            </div>
+                        </div> -->
+                    </div>
+                </div>                
+		</div>	khallllaaaa
+	</section>
+	<script src="test.js"></script>
+</body>
+</html>
